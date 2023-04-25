@@ -1,1 +1,27 @@
 /* Стилизация аккордеона */
+.accordion__summary::-webkit-details-marker {  /* нестандартный псевдоэлемент Google Chrome */
+    display: none;
+}
+
+.accordion__details {
+    list-style: none;
+    font-family: 'Inter';
+    padding: 24px 32px 32px 32px;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+}
+
+.accordion__summary {
+    list-style: none;
+    font-family: 'Inter';
+    padding-bottom: 16px;
+}
+
+.accordion__item {
+    font-family: 'Inter';
+}
+
+.accordion__details[open]{
+    padding-bottom: 32px;
+} 
+
