@@ -10,30 +10,30 @@
     text-align: center;
 }
 
-.button__primary{
+.button_primary{
     color: var(--button-primary-text);
     background: var(--button-primary-background);
 }
 
-.button__secondary{
+.button_secondary{
     color: var(--button-secondary-text);
     background: var(--button-secondary-background);
 }
 
-.button__alternate{
+.button_alternate{
     color: var(--button-alternate-text);
     background: var(--button-alternate-background);
 }
 
 .button:disabled {
     opacity: 0.5;
-    cursor: default;
+    pointer-events: none;
 }
 
-.button__primary:hover:not(:disabled) {
+.button_primary:hover:not(:disabled) {
     background: #2342C0;
 }
 
-.button__secondary:hover:not(:disabled) {
+.button_secondary:hover:not(:disabled) {
     background: #5028C6;
 }
