@@ -21,8 +21,16 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --button-primary-text: var(--white);
+    --button-secondary-text: var(--white);
+    --button-alternate-text: var(--black);
+    --button-primary-background: #4263EB;
+    --button-secondary-background: #7048E8;
+    --button-alternate-background: #E5E5E5;
 }
 
+
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif , 'Inter';
 }
