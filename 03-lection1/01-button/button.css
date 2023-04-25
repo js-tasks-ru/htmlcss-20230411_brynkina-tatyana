@@ -1,39 +1,68 @@
 /* Стилизация кнопки */
-.button{
+
+.button {
+    border: none;
+    outline: none;
+
+    display: inline-block;
     border-radius: 8px;
     padding: 15px 20px 14px;
-    border: none;
+    text-align: center;
     font-size: 16px;
+    line-height: 19px;
     font-weight: 500;
     cursor: pointer;
-    line-height: 19px;
-    text-align: center;
-}
-
-.button_primary{
-    color: var(--button-primary-text);
-    background: var(--button-primary-background);
-}
-
-.button_secondary{
-    color: var(--button-secondary-text);
-    background: var(--button-secondary-background);
-}
-
-.button_alternate{
-    color: var(--button-alternate-text);
-    background: var(--button-alternate-background);
+    min-width: 182px;
 }
 
 .button:disabled {
     opacity: 0.5;
-    pointer-events: none;
+    cursor: default;
 }
 
-.button_primary:hover:not(:disabled) {
+/* Primary */
+
+.button_primary {
+    background: #4263EB;
+    color: #FFFFFF;
+
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.button_primary:hover {
     background: #2342C0;
 }
 
+/* Возвращаем цвет на такой же, какой был у primary */
+.button_primary:hover:disabled {
+    background: #4263EB;
+}
+
+/* Secondary */
+
+.button_secondary {
+    background: #7048E8;
+    color: #FFFFFF;
+
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+/* Альтернатива возвращению цвета */
 .button_secondary:hover:not(:disabled) {
     background: #5028C6;
+}
+
+/* Alternate */
+
+.button_alternate {
+    border: 1px solid #ACB5BD;
+    background: transparent;
+    color: #495057;
+
+    transition: border-color 0.2s ease-in-out;
+}
+
+/* Альтернатива возвращению цвета */
+.button_alternate:hover:not(:disabled) {
+    border-color: #212429;
 }
