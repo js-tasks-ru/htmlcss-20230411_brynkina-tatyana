@@ -6,44 +6,47 @@
     border-radius: 8px;
 }
 
-.skeleton__avatar{
+.skeleton__avatar-container{
     display: flex;
     margin-bottom: 24px;
 }
 
-.skeleton__avatar__circle {
+.skeleton__circle {
     width: 64px;
     height: 64px;
     background: #DDE2E5;
     border-radius: 50%;
 }
 
-.skeleton__avatar__info {
+.skeleton__info-container {
+    gap: 8px 0;
+    width: 100%;
     margin-left: 16px;
-}
-
-.skeleton__avatar__info__name {
-    margin: 8px 0;
-    height: 20px;
-    width: 172px;
-    background: var(--skeleton-items-background);
-}
-
-.skeleton__avatar__info__description {
-    margin: 8px 0;
-    height: 20px;
-    width: 257px;
-    background: var(--skeleton-items-background);
-}
-
-.skeleton__text {
+    margin-top: 8px;
     display: flex;
     flex-direction: column;
 }
 
-.skeleton__text__item {
-    margin: 8px;
-    width: 515px;
+.skeleton__description-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.skeleton__item {
     height: 20px;
     background: var(--skeleton-items-background);
+}
+
+.skeleton__item-short {
+    width: 25%;
+}
+
+.skeleton__item-medium {
+    width: 50%;
+}
+
+.skeleton__item-long {
+    width: 90%;
 }

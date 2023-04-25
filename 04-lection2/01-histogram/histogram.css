@@ -13,7 +13,7 @@
     margin-bottom: 39px;
 }
 
-.histogram__info__content__name{
+.histogram__name{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -23,7 +23,7 @@
     margin: 0;
 }
 
-.histogram__info__content__count{
+.histogram__count{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -33,7 +33,7 @@
     margin: 0;
 }
 
-.histogram__info__link{
+.histogram__link{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -54,20 +54,20 @@
     margin-left: 0;
 }
 
-.histogram__graph__item{
+.histogram__graph-item{
     width: 9px;
     background: #4263EB;
     margin-left: 1px;
 }
 
-.histogram__graph__item-low{
+.histogram__graph-item_low{
     height: 30%;
 }
 
-.histogram__graph__item-midium{
+.histogram__graph-item_midium{
     height: 60%;
 }
 
-.histogram__graph__item-high{
+.histogram__graph-item_high{
     height: 100%;
 }
