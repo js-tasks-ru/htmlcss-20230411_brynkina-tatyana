@@ -39,14 +39,14 @@
     background: var(--skeleton-items-background);
 }
 
-.skeleton__item-short {
+.skeleton__item_short {
     width: 25%;
 }
 
-.skeleton__item-medium {
+.skeleton__item_medium {
     width: 50%;
 }
 
-.skeleton__item-long {
+.skeleton__item_long {
     width: 90%;
 }
