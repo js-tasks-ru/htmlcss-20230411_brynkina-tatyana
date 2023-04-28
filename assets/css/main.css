@@ -22,6 +22,8 @@
     --primary: var(--blue);
     --secondary: var(--purple);
 
+    --histogram-text-color: #212429;
+    --skeleton-items-background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
     --button-primary-text: var(--white);
     --button-secondary-text: var(--white);
     --button-alternate-text: var(--black);
